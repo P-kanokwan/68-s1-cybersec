@@ -1,0 +1,6 @@
+services :
+  s1app :
+    immage : node:18
+    container_name : 68-s1-app
+    ports :
+      - "8060:1337"
