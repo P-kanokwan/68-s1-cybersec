@@ -2,5 +2,5 @@ services :
   s1admin :
     image : dpage/pgadmin4
     container_name : 68-s1-admin
-    port : 
+    ports : 
       - "8070:80"
