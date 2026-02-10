@@ -9,3 +9,5 @@
 ```sh
 cp env.simple .env
 ```
+
+## Running a Service
