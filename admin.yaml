@@ -1,0 +1,9 @@
+services :
+  s1app :
+    immage : bpage/pgadmin4
+    container_name : 68-s1-admin
+    ports :
+      - ${PGADMIN_PORT}:80
+    envitoment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT}
