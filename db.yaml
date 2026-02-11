@@ -1,10 +1,10 @@
 services :
   s1app :
-    immage : postgres:latest
+    image : postgres:latest
     container_name : 68-s1-database
     ports :
       - ${POSTGRES_PASSWORD}:5432
-    envitoment:
+    environment:
       POSTGRES_USER: ${POSTGRES_USERNAME}
       POSTGRES_DB: ${POSTGRES_NAME}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
